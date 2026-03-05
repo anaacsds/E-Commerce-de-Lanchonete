@@ -18,6 +18,15 @@ img {
 text-align: center;
   }
 
+  #titulo-lanches {
+padding:0px;
+margin: 20px;
+  }
+
+  #p-lanches {
+    margin: 0px;
+  }
+
 
   footer a {
     color:rgba(255, 215, 215, 0.226);
@@ -126,10 +135,7 @@ text-align: center;
 }
 }
 
-
-
-
-
-
-
-
+#sug {
+  color:rgb(255, 255, 255);
+  background-color: #640707;
+}

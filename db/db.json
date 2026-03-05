@@ -1,0 +1,36 @@
+{
+  "salgados": [
+    {
+      "id": "1",
+      "nome": "Coxinha",
+      "texto": "Aquela coxinha cremosa com frango super temperado.",
+      "tipo": "Frito",
+      "preco": "R$ 6,50",
+      "foto": "img/salgado(1).png"
+    },
+    {
+      "id": "2",
+      "nome": "Maravilha",
+      "texto": "Bolinha crocante por fora e recheada por dentro.",
+      "tipo": "Frito",
+      "preco": "R$ 6,50",
+      "foto": "img/salgado(2).png"
+    },
+    {
+      "id": "3",
+      "nome": "Esfirra",
+      "texto": "Esfihas de carne, frango e queijo com presunto.",
+      "tipo": "Assado",
+      "preco": "R$ 6,50",
+      "foto": "img/salgado(3).png"
+    },
+    {
+      "id": "4",
+      "nome": "Empada",
+      "texto": "Nossa famosa empada de frango desfiado.",
+      "tipo": "Assado",
+      "preco": "R$ 6,50",
+      "foto": "img/salgado(4).png"
+    }
+  ]
+}
