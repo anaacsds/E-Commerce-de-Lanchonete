@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const API_BASE_URL = 'http://localhost:3000';
 
-    const cardapioContainer = document.getElementById("cardapio-container"); 
     const homeContainer = document.querySelector(".row.justify-content-center");
     const detalhesContainer = document.getElementById("detalhes-container");
 
@@ -68,6 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
             detalhesContainer.innerHTML = `<p class='text-danger text-center'>${error.message}</p> <a href="index.html" class="btn btn-danger">Voltar</a>`;
         }
     }
+
     if (homeContainer) {
         montarCardapioNaHome();
     }
