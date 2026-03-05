@@ -68,4 +68,10 @@ document.addEventListener('DOMContentLoaded', () => {
             detalhesContainer.innerHTML = `<p class='text-danger text-center'>${error.message}</p> <a href="index.html" class="btn btn-danger">Voltar</a>`;
         }
     }
+    if (homeContainer) {
+        montarCardapioNaHome();
+    }
+    if (detalhesContainer) {
+        verDetalhesDoSalgado();
+    }
 });
